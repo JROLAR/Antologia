@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 300;
+  color: #111;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header.sticky {
+  background-color: #fff;
+  padding: 10px 100px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+}
+
+header.sticky .logo {
+  color: black;
+}
+
+header .logo {
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header .logo span {
+  color: #01ff16;
+}
+
+header .navigation {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 7em;
+}
+
+header .navigation li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header .navigation li a {
+  text-decoration: none;
+  color: white;
+}
+
+header.sticky .navigation li a {
+  color: black;
+}
+
+header .navigation li a:hover {
+  color: #ff0157;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.banner {
+  background: #e6e0e0;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background: url(imagenes/bg2.jfif);
+}
+
+.banner .content {
+  text-shadow: 3px 3px black;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 180px;
+}
+
+.banner .content h3 {
+  color: #00a2ae;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.banner .content p {
+  text-align: justify;
+  color: #00a2ae;
+  font-size: 30px;
+}
+
+#info {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+}
+
+#info .content {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 100px;
+}
+
+#info .content p {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+}
+
+#lessons .content {
+  margin: 40px;
+}
+
+#lessons .content .titulo {
+  text-align: center;
+  font-size: 30PX;
+}
+
+#lessons .content ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+#lessons .content ul li {
+  margin-bottom: 20px;
+}
+
+#lessons .content ul li ol {
+  position: relative;
+  right: -20px;
+}
+
+.banner4 .content {
+  height: 800px;
+  background: url(imagenes/bg3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.banner4 .content .titulo {
+  text-align: center;
+  font-size: 30PX;
+}
+
+.banner4 .content ul {
+  margin: 40px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.banner4 .content ul li {
+  margin-bottom: 20px;
+}
+
+.banner4 .content ul li ol {
+  position: relative;
+  right: -20px;
+}
+/*# sourceMappingURL=Styles.css.map */

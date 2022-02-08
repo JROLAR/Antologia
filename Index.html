@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Antologia Computacional</title>
+</head>
+<body>
+    <header>
+        <audio autoplay controls  id="reproductor" src="musica\1.mp3"></audio>
+        <a href="" class="logo">Antologia<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Inicio</a></li>
+            <li><a href="#lessons">Clases</a></li>
+            <li><a href="#data">Datos</a></li>
+            <li><a href="#info">Informacion</a></li>            
+        </ul>
+       
+    </header>
+    
+   
+    <section class="banner" id="banner">
+        <div class="content">
+                           
+            <h3>Introduccion</h3>      
+            <p>La siguiente pagina esta creada con el fin de llevar acabo una recopilacion sobre las clases dadas en el curso de Fundamentos de la Informatica, la presente pretende crear un medio donde se recopilen los conocimientos adquiridos en la clase, que sea de facil acceso y la informacion se encuentre de forma interactiva. Ademas se pretende que esta informacion sea de facil acceso por medio de conexion a internet.
+            </p>
+               
+        </div>  
+       
+    </section>
+
+    <section class="banner3" id="lessons">
+        <div class="content">
+                           
+            <h3 class="titulo">Clase #1</h3>      
+            <ul>
+                <li><h3>Presentación:</h3></li>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                    <li></li>
+                    <li></li>
+                </ol> </li>            
+            
+                <li>¿Qué hizo?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p> </li>
+            
+                <li>¿Qué Aprendí?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+            
+                <li> ¿Qué puedo hacer para mejorar?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+            
+                <li>Análisis final<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+        </ul>
+        </div>  
+       
+    </section>
+
+    <section class="banner4" >
+        <div class="content">
+                           
+            <h3 class="titulo">Clase #1</h3>      
+            <ul>
+                <li><h3>Presentación:</h3></li>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                    <li></li>
+                    <li></li>
+                </ol> </li>            
+            
+                <li>¿Qué hizo?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p> </li>
+            
+                <li>¿Qué Aprendí?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+            
+                <li> ¿Qué puedo hacer para mejorar?<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+            
+                <li>Análisis final<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis perspiciatis consectetur reprehenderit officia aspernatur, earum est, quis reiciendis repudiandae fugit facilis ut doloremque animi iusto voluptatem quas, molestiae mollitia!</p></li>
+        </ul>
+        </div>  
+       
+    </section>
+
+
+
+    <section class="banner2" id="info">
+        <div class="content">
+                           
+            <p>Universidad Técnica Nacional (UTN) <br><br><br>
+                Carrera<br> Ingeniería en software<br><br><br>
+                Curso<br>  Fundamentos de informatica<br><br><br>
+                Profesor<br>Víctor Iván Zúñiga Zúñiga<br><br><br>
+                Alumno<br>  Josué Emanuel Roldán Arguedas<br><br><br>
+                Año en curso<br> 2021<br><br><br>
+            </p>               
+        </div>       
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY >0);
+
+
+        });
+    </script>
+    
+    <script>var reproductor = document.getElementById("reproductor");
+        reproductor.volume = 0.40;
+        reproductor=
+        
+        </script>
+   
+</body>
+</html>
