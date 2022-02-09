@@ -159,7 +159,7 @@ section{
             
         p{
             
-            color: #000000;
+            
             font-size: 30px;
             text-align: center;
         }
@@ -203,16 +203,30 @@ section{
         background-repeat: no-repeat;
         background-size: cover; 
         padding-top: 100px;  
+        padding-bottom: 100px;
+        position: relative;
+       
         .titulo{
-            
+
+            color: white;
             text-align: center;            
             font-size: 30PX ;
+            text-shadow: 2px 2px black;
         }
         ul{
             margin: 40px;
             list-style: none;
             font-size: 20px;
+            color: #fff;
+            text-shadow: 2px 2px black;
+            p{
+                color: #fff;
+                
+            }
+            
+           
             li{
+              
                 margin-bottom: 20px; 
                 ol{
                    position: relative;
