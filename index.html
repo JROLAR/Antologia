@@ -11,6 +11,7 @@
     <header>
         
         <a href="" class="logo">Antologia<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
             <li><a href="#banner">Inicio</a></li>
             <li><a href="#lessons">Clases</a></li>
@@ -86,6 +87,38 @@
        
     </section>
 
+    <section class="banner3" id="lessons" >
+        <div class="content">
+                           
+            <h3 class="titulo">Clase #3</h3>      
+            <ul>
+                <li><h3>Presentación:</h3></li>
+                <br><p>Esta sesión trató sobre las algebra booleana</p><br>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                    <li>Tablas de Verdad</li>
+                    <li>Compuertas lógicas</li>
+                    <li>Tablas de verdad, ecuaciones
+                        booleanas y circuitos</li>
+                </ol> </li>  
+                
+                <li class="imagen"><img src="imagenes\clase3.jpg" alt="Compuerta logica"></li> 
+            
+                <li>¿Qué hizo?<p>Además de leer el documento, el profesor realizó ejercicios de tablas de verdad y analizo algunos esquemas con compuertas logicas</p></li>
+            
+                <li>¿Qué Aprendí?<br><p>
+                    Aprendí a resolver algunas ecuaciones booleanas y también el manejo de tablas de verdad, además de identificar las distintas compuertas lógicas utilizadas en circuitos.</p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>La pregunta más importante que tengo sobre este tema es, ¿Qué utilidad puede tener esta materia o en que campos laborales puedo llegar a utilizar este conocimiento? </p></li>
+            
+                <li> ¿Qué puedo hacer para mejorar?<br><p>En este tema en especifico, la práctica es lo más óptimo para poder mejorar, aunque lea el documento, si no practico nada de esto, no podré desarrollar los futuros ejercicios con un desenvolvimie.</p></li>
+            
+                <li>Análisis final<br><p>Las ecuaciones booleanas son interesantes de resolver y por lo que entiendo, conforman parte importante de la creación de circuitos además de que desarrollan la lógica para la creación de código en programación.</p></li>
+        </ul>
+        </div>  
+       
+    </section>
+
 
 
     <section class="banner2" id="info">
@@ -108,6 +141,13 @@
 
 
         });
+
+        function toggleMenu(){
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
     </script>
     
     
