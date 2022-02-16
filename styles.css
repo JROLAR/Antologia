@@ -174,7 +174,7 @@ section {
 }
 
 #lessons .content ul .imagen img {
-  width: 500px;
+  width: 50%;
   position: relative;
   right: -35%;
 }
@@ -189,7 +189,6 @@ section {
 }
 
 .banner4 .content {
-  height: 800px;
   background: url(imagenes/bg3.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -197,7 +196,6 @@ section {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative;
 }
 
 .banner4 .content .titulo {
@@ -270,6 +268,7 @@ section {
     position: relative;
     width: 40px;
     height: 40px;
+    right: 50px;
     background: url(imagenes/toggle.png);
     background-size: 50px;
     background-repeat: no-repeat;
@@ -288,6 +287,12 @@ section {
   }
   section {
     padding: 20px;
+  }
+  .clase .content {
+    font-size: 3em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=Styles.css.map */
