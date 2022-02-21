@@ -257,6 +257,9 @@ section{
     header .navigation {
         display: none;
     }
+    
+    /**/
+
     header .navigation.active{
         width: 100%;
         height: calc(100% - 68px);
