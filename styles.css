@@ -233,6 +233,7 @@ section {
   header .navigation {
     display: none;
   }
+  /**/
   header .navigation.active {
     width: 100%;
     height: calc(100% - 68px);
@@ -295,4 +296,42 @@ section {
     display: flex;
   }
 }
+.banner5 .content {
+  background: url(imagenes/bg4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.banner5 .content .titulo {
+  color: white;
+  text-align: center;
+  font-size: 30PX;
+  text-shadow: 2px 2px black;
+}
+
+.banner5 .content ul {
+  margin: 40px;
+  list-style: none;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+
+.banner5 .content ul p {
+  color: #fff;
+}
+
+.banner5 .content ul li {
+  margin-bottom: 20px;
+}
+
+.banner5 .content ul li ol {
+  position: relative;
+  right: -20px;
+}
+
 /*# sourceMappingURL=Styles.css.map */
