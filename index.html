@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +16,31 @@
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
             <li><a href="#banner">Inicio</a></li>
-            <li><a href="#lessons">Clases</a></li>
-            <li><a href="#data">Datos</a></li>
-            <li><a href="#info">Informacion</a></li>            
+            <li><a href="#info">Informacion</a></li>   
+            <li>
+                <a class=" itemLetter dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Clases</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="blackWord dropdown-item" href="#lessons1">Clase #1</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons2">Clase #2</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons3">Clase #3</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons4">Clase #4</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons5">Clase #5</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons6">Clase #6</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons7">Clase #7</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons8">Clase #8</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons9">Clase #9</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons10">Clase #10</a></li>
+                    <li><a class="blackWord dropdown-item" href="#lessons11">Clase #11</a></li>
+                    
+                </ul>
+            </li>
+     
         </ul>
        
     </header>
     
    
-    <section class="banner" id="banner">
+    <section class="banner" id="banner" >
         <div class="content">
                            
             <h3>Introduccion</h3>      
@@ -33,7 +51,7 @@
        
     </section>
 
-    <section class="banner3 clase" id="lessons">
+    <section class="banner3 clase" id="lessons1">
         <div class="content">
                            
             <h3 class="titulo">Semana #1</h3>      
@@ -58,7 +76,7 @@
        
     </section>
 
-    <section class="banner4 clase" >
+    <section class="banner4 clase2" id="lessons2" >
         <div class="content">
                            
             <h3 class="titulo">Semana #2</h3>      
@@ -87,7 +105,7 @@
        
     </section>
 
-    <section class="banner3 clase" id="lessons" >
+    <section class="banner3 clase" id="lessons3" >
         <div class="content">
                            
             <h3 class="titulo">Semana #3</h3>      
@@ -121,7 +139,7 @@
        
     </section>
 
-    <section class="banner5 clase" >
+    <section class="banner5 clase" id="lessons4" >
         <div class="content">
                            
             <h3 class="titulo">Semana #4</h3>      
@@ -149,7 +167,59 @@
         </div>  
        
     </section>
-    <section class="banner3 clase" id="lessons" >
+    <section class="banner3 clase" id="lessons5">
+        <div class="content">
+                           
+            <h3 class="titulo">Semana #5</h3>      
+            <ul>
+                <li><h3>Semana de Examen</h3></li>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                    
+                </ol> </li>            
+            
+                <li>¿Qué hizo?<br><p>-----</p> </li>
+            
+                <li>¿Qué Aprendí?<br><p>-----</p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>-----</p></li>
+            
+                <li> ¿Qué puedo hacer para mejorar?<br><p>-----</p></li>
+            
+                <li>Análisis final<br><p>-----</p></li>
+        </ul>
+        </div>  
+       
+    </section>
+    <section class="banner10 clase" id="lessons6">
+        <div class="content">
+                           
+            <h3 class="titulo">Semana #6</h3>      
+            <ul>
+                <li><h3>Presentación:</h3></li>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                        <li>Protocolos de red</li>
+                        <li>Modelo OSI y TCP</li>
+                </ol> </li>            
+            
+                <li>¿Qué hizo?<br><p>Investigamos por medio de un micro ejercicio lo que es un protocolo de red y los distintos modelos que están basados en el modelo OSI como el TCP
+                </p> </li>
+            
+                <li>¿Qué Aprendí?<br><p>Aprendí sobre el funcionamiento de capas de los protocolos de internet.
+                </p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>¿Cual es la forma mas optima para crear un protocolo de internet y si hay más formas además de la del modelo OSI?</p></li>
+            
+                <li> ¿Qué puedo hacer para mejorar?<br><p>Como en todo materia teórica, sólo por medio de la investigación puedo mejorar mi conocimiento sobre el tema.
+                </p></li>
+            
+                <li>Análisis final<br><p>Los protocolos de red son de suma importancia para la transmisión de datos a través de una red, es muy importante conocerlos para trabajar en un futuro con temas relacionados a las redes.</p></li>
+        </ul>
+        </div>  
+       
+    </section>
+    <section class="banner3 clase" id="lessons7" >
         <div class="content">
                            
             <h3 class="titulo">Semana #7</h3>      
@@ -181,7 +251,7 @@
        
     </section>
 
-    <section class="banner7 clase" >
+    <section class="banner7 clase" id="lessons8" >
         <div class="content">
                            
             <h3 class="titulo">Semana #8</h3>      
@@ -213,7 +283,7 @@
        
     </section>
 
-    <section class="banner3 clase" id="lessons" >
+    <section class="banner3 clase" id="lessons9" >
         <div class="content">
                            
             <h3 class="titulo">Semana #9</h3>      
@@ -247,14 +317,87 @@
        
     </section>
 
+    <section class="banner9 clase" id="lessons10" >
+        <div class="content">
+                           
+            <h3 class="titulo">Semana #10</h3>      
+            <ul>
+                <li><h3>Presentación:</h3></li>
+                <br><p>Esta sesion trato de Redes</p><br>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                    <li>Redes de computadoras.</li>
+                    <li>Componentes de red.</li>
+                    <li>Características de una red.</li>
+                    <li>Funciones de la red.</li>
+                    <li>Medios de transmisión.</li>
+                    
+                    
+                </ol> </li>            
+            
+                <li>¿Qué hizo?<p>Leímos un documento extenso que trataba sobre las redes de computadoras, su comportamiento, componentes, características, funcionamiento y medios de transmisión.
+                </p></li>
+            
+                <li>¿Qué Aprendí?<br><p>El aprendizaje de esta clase fue en sí, entender cómo se distribuye una red y cuales son los componentes que la forman.
+                </p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>¿Cuántos componentes existen para red?
+                </p></li>
+            
+                <li>¿Qué puedo hacer para mejorar?<br><p>Para mejorar puedo aprender sobre los diferentes componentes utilizados en la red además de las diferentes distribuciones que hay, con esto puliendo mis habilidades futuras en caso de que tenga que estructurar una red por mi propia cuenta.
+                </p></li>
+            
+                <li>Análisis final<br><p>Este tema es súper relevante para un informático porque a pesar de que no se especialice en el área de redes, este tema conecta con otros temas como el manejo de servidores/Bases de datos, entre otros, lo cual quiere decir que saber sobre el tema puede traer beneficios futuros para nuestros próximos trabajos.
+                </p></li>
+        </ul>
+        </div>  
+       
+    </section>
 
-   
+    <section class="banner3 clase" id="lessons11" >
+        <div class="content">
+                           
+            <h3 class="titulo">Semana #11</h3>      
+            <ul>
+                <li><h3>Presentación:</h3></li>
+                <br><p>Esta sesión trató sobre las bases de datos.</p><br>
+            
+                <li> <h3>Contenido temático:</h3> <ol type="I">
+                    <li>Tipos de bases de datos</li>
+                    <li>Tipo de información que se puede almacenar</li>
+                    <li>Base de datos NoSQL</li>
+                    <li>Lenguaje de manipulación de datos </li>
+                    
+                   
+                    
+                </ol> </li>  
+                
+                <li class="imagen" id="imagen"><img src="imagenes\clase10.jpg" alt="Compuerta logica"></li> 
+            
+                
+
+                <li>¿Qué hizo?<p>Lo que aprendimos en esta sesión fue sobre las bases de datos, en el documento adjunto de la clase se encontraba información relevante con respecto al tema, hablando sobre tipos de bases de datos, tipos de lenguajes que utilizan, tipos de datos que manejan, entre otros.
+                </p></li>
+                
+            
+                <li>¿Qué Aprendí?<br><p>Aprendí distintos datos sobre las bases de datos, además de una investigación propia del funcionamiento de estas y algunos tipos que existen, sobre todo las SQL y las noSQL.</p></li>
+            
+                <li>¿Qué preguntas me surgen?<br><p>¿Entre las distintas bases de datos, cuales son las mejores, o como distinguir cual es la más adecuada para mis futuros proyectos? </p></li>
+            
+                <li> ¿Qué puedo hacer para mejorar?<br><p>La experimentación, solo trabajando distintas bases de datos puedo mejorar mi conocimiento sobre estas y saber en qué momento usarlas en algún proyecto además de que la experiencia me permitirá manipularlas mejor para futuros trabajos.</p></li>
+            
+                <li>Análisis final<br><p>Las bases de datos son una herramienta muy importante en la programación y se han vuelto herramientas fundamentales en este campo debido a la gran versatilidad y facilidad que le da a un programador a la hora de desarrollar nuevos software.
+                </p></li>
+        </ul>
+        </div>  
+       
+    </section>
   
     
 
 
 
-    <section class="banner2" id="info">
+    <section class="banner2" id="info" >
         <div class="content">
                            
             <p>Universidad Técnica Nacional (UTN) <br><br><br>

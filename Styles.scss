@@ -12,6 +12,13 @@ p{
     color: #111;
     
 }
+.blackWord{
+    color: rgb(29, 25, 25);
+}
+
+.navigation li a.blackWord{
+    color: rgb(0, 0, 0);
+}
 
 header{
     position: fixed;
@@ -118,7 +125,7 @@ section{
     width: 60%;
     margin: 50px;
     align-items: center;
-    bottom: 180px;
+    
     
 }
 
@@ -171,7 +178,7 @@ section{
 
 }
 
-#lessons{
+.clase{
     
     .content{
     margin: 40px;    
@@ -380,7 +387,93 @@ section{
     } 
 }
 
+.banner9{
+    
+    .content{
+      
+        background: url(imagenes/bg7.jpg); 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding-top: 100px;  
+        padding-bottom: 100px;
+        
+       
+        .titulo{
 
+            color: white;
+            text-align: center;            
+            font-size: 30PX ;
+            text-shadow: 2px 2px black;
+        }
+        ul{
+            margin: 40px;
+            list-style: none;
+            font-size: 20px;
+            color: #fff;
+            text-shadow: 2px 2px black;
+            p{
+                color: #fff;
+                
+            }
+            
+           
+            li{
+              
+                margin-bottom: 20px; 
+                ol{
+                   position: relative;
+                   right: -20px;
+                }
+            }
+        }
+    } 
+}
+
+.banner10{
+    
+    .content{
+      
+        background: url(imagenes/bg8.png); 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding-top: 100px;  
+        padding-bottom: 100px;
+        
+       
+        .titulo{
+
+            color: white;
+            text-align: center;            
+            font-size: 30PX ;
+            text-shadow: 2px 2px black;
+        }
+        ul{
+            margin: 40px;
+            list-style: none;
+            font-size: 20px;
+            color: #fff;
+            text-shadow: 2px 2px black;
+            p{
+                color: #fff;
+                
+            }
+            
+           
+            li{
+              
+                margin-bottom: 20px; 
+                ol{
+                   position: relative;
+                   right: -20px;
+                }
+            }
+        }
+    } 
+}
 
 @media (max-width: 991px) {
     

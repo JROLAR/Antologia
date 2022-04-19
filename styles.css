@@ -10,6 +10,14 @@ p {
   color: #111;
 }
 
+.blackWord {
+  color: #1d1919;
+}
+
+.navigation li a.blackWord {
+  color: black;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -112,7 +120,6 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  bottom: 180px;
 }
 
 .banner .content h3 {
@@ -159,31 +166,31 @@ section {
   text-align: center;
 }
 
-#lessons .content {
+.clase .content {
   margin: 40px;
 }
 
-#lessons .content .titulo {
+.clase .content .titulo {
   text-align: center;
   font-size: 30PX;
 }
 
-#lessons .content ul {
+.clase .content ul {
   list-style: none;
   font-size: 20px;
 }
 
-#lessons .content ul .imagen img {
+.clase .content ul .imagen img {
   width: 50%;
   position: relative;
   right: -35%;
 }
 
-#lessons .content ul li {
+.clase .content ul li {
   margin-bottom: 20px;
 }
 
-#lessons .content ul li ol {
+.clase .content ul li ol {
   position: relative;
   right: -20px;
 }
@@ -336,6 +343,82 @@ section {
 }
 
 .banner7 .content ul li ol {
+  position: relative;
+  right: -20px;
+}
+
+.banner9 .content {
+  background: url(imagenes/bg7.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.banner9 .content .titulo {
+  color: white;
+  text-align: center;
+  font-size: 30PX;
+  text-shadow: 2px 2px black;
+}
+
+.banner9 .content ul {
+  margin: 40px;
+  list-style: none;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+
+.banner9 .content ul p {
+  color: #fff;
+}
+
+.banner9 .content ul li {
+  margin-bottom: 20px;
+}
+
+.banner9 .content ul li ol {
+  position: relative;
+  right: -20px;
+}
+
+.banner10 .content {
+  background: url(imagenes/bg8.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.banner10 .content .titulo {
+  color: white;
+  text-align: center;
+  font-size: 30PX;
+  text-shadow: 2px 2px black;
+}
+
+.banner10 .content ul {
+  margin: 40px;
+  list-style: none;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+
+.banner10 .content ul p {
+  color: #fff;
+}
+
+.banner10 .content ul li {
+  margin-bottom: 20px;
+}
+
+.banner10 .content ul li ol {
   position: relative;
   right: -20px;
 }
